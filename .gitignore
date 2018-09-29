@@ -1,10 +1,11 @@
-./Apps/basicRF/Debug/*
-./Apps/basicRF/settings/*
-./Apps/basicRF/basicRF.dep
-./Apps/basicRF/basicRF.ewd
-./Apps/basicRF/basicRF.ewp
-./Apps/basicRF/basicRF.ewt
-./Apps/basicRF/basicRF.eww
+*.dep
+*.ewd
+*.ewp
+*.ewt
+*.eww
+Debug/
+settings/
+.gitignore
 
 
 
