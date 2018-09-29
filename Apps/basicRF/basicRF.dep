@@ -1,0 +1,497 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<project>
+  <fileVersion>2</fileVersion>
+  <fileChecksum>3786550577</fileChecksum>
+  <configuration>
+    <name>Debug</name>
+    <outputs>
+      <file>$PROJ_DIR$\basicRF.c</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\exti\exti.c</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\clk\clk.c</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\rf\rf.c</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\timer\timer.c</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\types.h</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\uart\uart.c</file>
+      <file>$PROJ_DIR$\..\..\Devs\sx1276\sx1276.c</file>
+      <file>$PROJ_DIR$\..\..\Net\Mac\csma.c</file>
+      <file>$PROJ_DIR$\..\..\Net\Hal\hal.c</file>
+      <file>$PROJ_DIR$\..\..\Net\Mac\mac.c</file>
+      <file>$PROJ_DIR$\..\..\Net\Nwk\nwk.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\IotOS.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.pbi</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\hal.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\nwk.o</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\s_spi.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\exti.pbi</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\rf\rf.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.pbi</file>
+      <file>$TOOLKIT_DIR$\lib\dlstm8smf.a</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\timer\timer.h</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\io_cfg.h</file>
+      <file>$TOOLKIT_DIR$\inc\iostm8s103f3.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.o</file>
+      <file>$PROJ_DIR$\..\..\OS\IotOS.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\ystdio.h</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\clk\clk.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\nwk.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal.pbi</file>
+      <file>$PROJ_DIR$\Debug\List\basicRF.map</file>
+      <file>$PROJ_DIR$\..\..\Devs\sx1276\sx1276.h</file>
+      <file>$PROJ_DIR$\..\..\Net\Mac\csma.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\csma.pbi</file>
+      <file>$PROJ_DIR$\..\..\Platforms\GBlora\board_cfg.h</file>
+      <file>$PROJ_DIR$\app.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rf.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Threads.h</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\exti\exti.h</file>
+      <file>$TOOLKIT_DIR$\inc\io_macros.h</file>
+      <file>$PROJ_DIR$\Debug\Exe\basicRF.out</file>
+      <file>$PROJ_DIR$\Debug\Obj\timer.pbi</file>
+      <file>$PROJ_DIR$\..\..\Net\Nwk\nwk.h</file>
+      <file>$PROJ_DIR$\..\..\OS\IotOS.c</file>
+      <file>$PROJ_DIR$\..\..\Platforms\GBlora\s_spi\s_spi.c</file>
+      <file>$PROJ_DIR$\..\..\OS\Main\main.c</file>
+      <file>$PROJ_DIR$\..\..\Platforms\GBlora\led\led.c</file>
+      <file>$PROJ_DIR$\Debug\Obj\uart.o</file>
+      <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\s_spi.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\xencoding_limits.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\rf.pbi</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\uart\uart.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\basicRF.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\basicRF.o</file>
+      <file>$PROJ_DIR$\..\..\Platforms\GBlora\led\led.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\hal.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\csma.o</file>
+      <file>$PROJ_DIR$\..\..\Net\Mac\mac.h</file>
+      <file>$TOOLKIT_DIR$\lib\dbgstm8smd.a</file>
+      <file>$PROJ_DIR$\Debug\Obj\mac.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\mac.o</file>
+      <file>$PROJ_DIR$\..\..\Cpus\stm8sxxx\hal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\basicRF.pbd</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276.pbi</file>
+      <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+      <file>$PROJ_DIR$\..\..\Platforms\GBlora\s_spi\s_spi.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\led.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\clk.pbi</file>
+      <file>$TOOLKIT_DIR$\config\lnkstm8s103k3.icf</file>
+      <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+      <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\sx1276.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\main.o</file>
+      <file>$PROJ_DIR$\..\..\Net\Hal\hal.h</file>
+      <file>$PROJ_DIR$\Debug\Obj\IotOS.pbi</file>
+      <file>$PROJ_DIR$\Debug\Obj\clk.o</file>
+      <file>$PROJ_DIR$\Debug\Obj\exti.o</file>
+    </outputs>
+    <file>
+      <name>[ROOT_NODE]</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 32 43</file>
+        </tool>
+      </outputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\basicRF.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 59</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 58</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 38 23 25 42 56 35 13 71 77 17 52 54 40 76 28 51 34 5 27 20 33 41 80 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 51 27 5 56 42 76 13 23 34 20 25 35 77 71 38 41 28 54 40 17 52 33 80 60</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Cpus\stm8sxxx\exti\exti.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 83</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 19</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 41 25 42 34 5 60 20 33 27 38</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 27 60 25 5 34 20 42 33 41 38</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Cpus\stm8sxxx\clk\clk.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 82</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 74</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 29 25 42</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 42 29</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Cpus\stm8sxxx\rf\rf.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 39</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 55</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 20 5 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 33 20</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Cpus\stm8sxxx\timer\timer.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 26</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 44</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 35 13 71 77 17 52 54 40 76 28 23 25 42 27 38 34 5 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 52 28 54 40 17 23 13 76 77 25 35 27 42 38 34 60 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Cpus\stm8sxxx\uart\uart.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 50</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 21</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 56 35 13 71 77 17 52 54 40 76 28 25 42 51 27 80</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 35 40 17 13 80 51 54 52 71 27 25 28 77 42 56</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Devs\sx1276\sx1276.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 78</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 70</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 37 24 25 42 33 5 72 20</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 5 25 72 24 33 20 42 37</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Net\Mac\csma.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 62</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 36</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 66 13 71 77 17 52 54 40 76 34 5 20 33 23 25 42 60 56 35 28 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 40 13 60 76 54 17 5 20 52 51 34 23 56 71 77 33 42 35 66 28</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Net\Hal\hal.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 80 56 35 13 71 77 17 52 54 40 76 28 25 42 51 20 5 33 38 27</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 71 33 56 25 28 13 42 38 77 20 27 35 51 76 54 40 17 52 5 80</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Net\Mac\mac.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 67</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 65</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 63 20 5 33 37 24 25 42 60 56 35 13 71 77 17 52 54 40 76 28 51</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 5 33 24 76 37 25 51 20 60 56 42 35 77 71 63 28 54 40 17 52</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Net\Nwk\nwk.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 16</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 30</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Cpus\stm8sxxx\hal.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 61</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 31</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 68 56 35 13 71 77 17 52 54 40 76 28 25 42 51 20 5 33</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 13 56 51 54 52 71 35 76 40 17 20 25 28 77 42 33 68 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\Debug\Exe\basicRF.out</name>
+      <outputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 32</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ILINK</name>
+          <file> 75 59 82 62 83 61 12 73 67 79 16 39 18 78 26 50 22 64</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\OS\IotOS.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 12</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 81</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 27 60 38 80 56 35 13 71 77 17 52 54 40 76 28 25 42 51 63 45</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 76 56 13 51 42 38 35 77 71 60 80 25 28 54 40 17 52 27 63 45</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Platforms\GBlora\s_spi\s_spi.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 18</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 53</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 37 24 25 42 72 5</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 42 72 24 25 37 5</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\OS\Main\main.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 79</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 14</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 27 29 25 42 60 23 56 35 13 71 77 17 52 54 40 76 28 51 38 41 20 5 33 72</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 40 13 56 25 60 41 28 54 17 29 23 38 20 42 71 52 76 5 27 72 35 51 77 33</file>
+        </tool>
+      </inputs>
+    </file>
+    <file>
+      <name>$PROJ_DIR$\..\..\Platforms\GBlora\led\led.c</name>
+      <outputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 73</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 57</file>
+        </tool>
+      </outputs>
+      <inputs>
+        <tool>
+          <name>ICCSTM8</name>
+          <file> 37 24 25 42 60</file>
+        </tool>
+        <tool>
+          <name>BICOMP</name>
+          <file> 25 24 42 37 60</file>
+        </tool>
+      </inputs>
+    </file>
+  </configuration>
+  <configuration>
+    <name>Release</name>
+    <outputs/>
+    <forcedrebuild>
+      <name>[MULTI_TOOL]</name>
+      <tool>ILINK</tool>
+    </forcedrebuild>
+  </configuration>
+</project>
+
+
